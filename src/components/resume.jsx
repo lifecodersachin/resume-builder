@@ -66,7 +66,11 @@ const Resume = () => {
           <h3 className="section-title">Skills</h3>
         </div>
         <div className="right">
-          <p classname="skills">{resume?.skills?.join(" | ")}</p>
+          <p classname="skills">
+            {typeof resume?.skills !== "string"
+              ? resume?.skills?.join(" | ")
+              : resume?.skills}
+          </p>
         </div>
       </div>
     </div>
