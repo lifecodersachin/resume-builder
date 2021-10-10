@@ -1,0 +1,83 @@
+.resume-container {
+  border: 1px solid black;
+  padding: 2rem;
+  min-width: 728px;
+  max-width: 70vw;
+  margin: 0 auto;
+  /* letter-spacing: 1px; */
+}
+
+.resume-container h3,
+h4 {
+  letter-spacing: 1px;
+}
+
+.section-container {
+  width: 100%;
+  min-height: 100px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.left,
+.right {
+  height: 100%;
+}
+
+.left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right {
+  border-top: 5px solid #c8aa8c;
+  margin-top: 10px;
+  padding: 10px 0;
+  flex: 3;
+}
+
+.personal-info {
+  padding-left: 30px;
+}
+
+.resume-header-cotainer {
+  display: flex;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.resume-header-cotainer .title-container {
+  flex: 3;
+  padding-left: 30px;
+}
+
+.dp-container {
+  flex: 1;
+  text-align: center;
+}
+
+.user-image {
+  height: 150px;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+
+.name {
+  font-size: 4rem;
+}
+
+.designation {
+  font-size: 2rem;
+}
+
+.personal-info > ul > li {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
